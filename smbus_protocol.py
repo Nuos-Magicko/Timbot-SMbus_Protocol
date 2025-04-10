@@ -164,7 +164,7 @@ class smb_protocol:
         val = self.smb.read_word_data(self.addr, SMBUS_PROTOCOL_CYCLE_COUNT)
         return val
     
-    def get_battery_valus(self):
+    def get_battery_status(self):
         '''
         Get battery status
         unit : -
